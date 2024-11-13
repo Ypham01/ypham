@@ -15,9 +15,27 @@ body {
     background-repeat: no-repeat;
 }
 
+/* About Section Styles */
+#about {
+    background: #f7f7f7; /* Light gray background */
+    padding: 3rem 2rem;  /* Add padding around the section */
+    text-align: center;  /* Center-align the text */
+    color: #333;         /* Dark text color for contrast */
+    font-family: 'Arial', sans-serif;
+    width: 100%;          /* Make section full width */
+    margin: 0 auto;       /* Center-align the section */
+}
+
+.about-container {
+    max-width: 100%; /* Make sure the container fills the entire width */
+    margin: 0 auto;  /* Keep the container centered */
+    padding: 0 1rem; /* Optional: Add some padding to prevent the text from touching the edges */
+}
+
+/* General Styling for Header */
 header {
     background: #333;
-    color: #efecec;
+    color: #fcf8f8;
     text-align: center;
     padding: 1.5rem 0;
 }
@@ -42,10 +60,11 @@ header nav a:hover {
     text-decoration: underline;
 }
 
+/* Styling for Sections */
 section {
     padding: 2rem 1.5rem;
-    max-width: 800px;
-    margin: auto;
+    width: 100%;       /* Make section full width */
+    margin: 1rem 0;    /* Add space between sections */
 }
 
 section#about,
