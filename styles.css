@@ -9,12 +9,15 @@
 body {
     line-height: 1.6;
     color: #333;
-    background-color: #f4f4f4;
+    background-image: url('https://cdn.vectorstock.com/i/500p/84/65/abstract-white-monochrome-background-vector-32028465.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 header {
     background: #333;
-    color: #fff;
+    color: #efecec;
     text-align: center;
     padding: 1.5rem 0;
 }
