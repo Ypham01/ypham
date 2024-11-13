@@ -26,6 +26,9 @@ body {
     margin: 0 auto;       /* Center-align the section */
 }
 
+.intro-text {
+    text-align: left;
+}
 .about-container {
     max-width: 100%; /* Make sure the container fills the entire width */
     margin: 0 auto;  /* Keep the container centered */
@@ -39,6 +42,15 @@ header {
     text-align: center;
     padding: 1.5rem 0;
 }
+.profile-pic {
+    width: 150px;       
+    height: 150px;      
+    border-radius: 50%;
+    margin-bottom: 1rem; 
+    object-fit: cover;  
+    border: 3px solid #fff; 
+}
+
 
 header h1 {
     margin: 0.5rem 0;
